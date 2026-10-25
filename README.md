@@ -35,6 +35,8 @@ Each step has a numbered RMarkdown file at the top of the repository and a folde
 | Gene annotation | `05_gene_annotation.Rmd` | `prokka/` | Prokka |
 | Metabolic pathways | `06_metabolic_pathways.Rmd` | `minpath/` | MinPath |
 
+`index.Rmd` joins all six steps into one web page. Knit it to make `index.html`.
+
 <!--
 Notes on working in this repository (you can delete this once you've read it):
 
